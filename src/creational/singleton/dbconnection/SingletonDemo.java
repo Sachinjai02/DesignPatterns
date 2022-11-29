@@ -1,4 +1,4 @@
-package creational.singleton;
+package creational.singleton.dbconnection;
 
 import java.util.ArrayList;
 import java.util.List;
