@@ -1,6 +1,6 @@
-package Decorator.pizzas.toppings;
+package structural.decorator.pizzas.toppings;
 
-import Decorator.pizzas.Pizza;
+import structural.decorator.pizzas.Pizza;
 
 public class Tomato implements Pizza {
 

@@ -1,4 +1,4 @@
-package Singleton;
+package creational.singleton;
 
 public class DatabaseConnection {
 

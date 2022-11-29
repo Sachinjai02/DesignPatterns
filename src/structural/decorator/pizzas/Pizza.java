@@ -1,4 +1,4 @@
-package Decorator.pizzas;
+package structural.decorator.pizzas;
 
 public interface Pizza {
     int getCost();

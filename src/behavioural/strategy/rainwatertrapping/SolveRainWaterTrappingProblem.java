@@ -1,4 +1,4 @@
-package Strategy.rainwatertrapping;
+package behavioural.strategy.rainwatertrapping;
 
 public class SolveRainWaterTrappingProblem {
     public static void main(String[] args) {

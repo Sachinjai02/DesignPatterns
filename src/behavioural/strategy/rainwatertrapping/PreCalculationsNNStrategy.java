@@ -1,4 +1,4 @@
-package Strategy.rainwatertrapping;
+package behavioural.strategy.rainwatertrapping;
 
 public class PreCalculationsNNStrategy implements RainWaterTrappingSolutionStrategy {
     @Override
