@@ -5,8 +5,7 @@ import creational.factory.practicalfactory.flutter.dropdown.AndroidDropDown;
 import creational.factory.practicalfactory.flutter.menu.AndroidMenu;
 import creational.factory.practicalfactory.flutter.text.AndroidText;
 
-//Abstract factory
-//Collection of factory methods
+
 public class AndroidUIFactory implements UIFactory{
     @Override
     public AndroidButton createButton() {

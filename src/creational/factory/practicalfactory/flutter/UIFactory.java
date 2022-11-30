@@ -5,6 +5,8 @@ import creational.factory.practicalfactory.flutter.dropdown.DropDown;
 import creational.factory.practicalfactory.flutter.menu.Menu;
 import creational.factory.practicalfactory.flutter.text.Text;
 
+//Abstract factory
+//Collection of factory methods
 public interface UIFactory {
 
     Button createButton();
