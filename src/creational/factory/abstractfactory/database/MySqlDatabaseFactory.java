@@ -9,17 +9,17 @@ import creational.factory.abstractfactory.database.updater.Updater;
 
 public class MySqlDatabaseFactory implements DatabaseFactory {
     @Override
-    public Query createQuery() {
+    public MySqlQuery createQuery() {
         return new MySqlQuery();
     }
 
     @Override
-    public Transaction createTransaction() {
+    public MySqlTransaction createTransaction() {
         return new MySqlTransaction();
     }
 
     @Override
-    public Updater createUpdater() {
+    public MySqlUpdater createUpdater() {
         return new MySqlUpdater();
     }
 }

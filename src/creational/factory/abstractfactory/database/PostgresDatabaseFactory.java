@@ -9,17 +9,17 @@ import creational.factory.abstractfactory.database.updater.Updater;
 
 public class PostgresDatabaseFactory implements DatabaseFactory {
     @Override
-    public Query createQuery() {
+    public PostgresQuery createQuery() {
         return new PostgresQuery();
     }
 
     @Override
-    public Transaction createTransaction() {
+    public PostgresTransaction createTransaction() {
         return new PostgresTransaction();
     }
 
     @Override
-    public Updater createUpdater() {
+    public PostgresUpdater createUpdater() {
         return new PostgresUpdater();
     }
 }
