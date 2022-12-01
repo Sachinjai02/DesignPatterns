@@ -1,11 +1,11 @@
 package behavioural.strategy.googlemaps.client;
 
-import behavioural.strategy.googlemaps.ShortestDistanceCalculationStrategy;
-import behavioural.strategy.googlemaps.factory.DistanceStrategyFactory;
+import behavioural.strategy.googlemaps.PathCalculationStrategy;
+import behavioural.strategy.googlemaps.factory.PathCalculationStrategyFactory;
 
 public class Main {
     public static void main(String[] args) {
-        ShortestDistanceCalculationStrategy shortestDistanceStrategy = DistanceStrategyFactory.getDistanceStrategy("car");
-        shortestDistanceStrategy.getShortestDistance("Delhi", "Agra");
+        PathCalculationStrategy shortestDistanceStrategy = PathCalculationStrategyFactory.getPathCalculationStrategy("car");
+        shortestDistanceStrategy.findPath("Delhi", "Agra");
     }
 }
