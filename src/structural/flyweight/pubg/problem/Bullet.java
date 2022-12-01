@@ -1,8 +1,7 @@
-package structural.flyweight.pubg.problemimplementation;
-
-import java.awt.*;
+package structural.flyweight.pubg.problem;
 
 public class Bullet {
+    private double radius; //fixed
     private int type; //fixed
     private double weight; //fixed
     private double x, y, z; //variable
@@ -10,5 +9,6 @@ public class Bullet {
     private int color; //fixed
     private double direction; //variable
     private double maxPower; //fixed
-    private Image image; //fixed
+    private byte[] image; //fixed
+    private int bulletStatus; //variable ; fired, non fired
 }
